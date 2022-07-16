@@ -37,6 +37,7 @@ void loop() {
 
   digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
   delay(BLINK_PERIOD/2);                       // wait for a second
+    Serial.print(".");
   digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
   delay(BLINK_PERIOD/2);                       // wait for a second
   Serial.print(".");
